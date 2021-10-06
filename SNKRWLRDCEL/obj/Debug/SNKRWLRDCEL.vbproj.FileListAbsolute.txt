@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\bin\Debug\SNKRWLRDCEL.dll.config
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\bin\Debug\SNKRWLRDCEL.dll
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\bin\Debug\SNKRWLRDCEL.pdb
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\bin\Debug\SNKRWLRDCEL.xml
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\obj\Debug\SNKRWLRDCEL.Resources.resources
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\obj\Debug\SNKRWLRDCEL.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\obj\Debug\SNKRWLRDCEL.vbproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\obj\Debug\SNKRWLRDCEL.dll
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\obj\Debug\SNKRWLRDCEL.xml
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDCEL\obj\Debug\SNKRWLRDCEL.pdb

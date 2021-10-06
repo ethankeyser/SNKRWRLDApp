@@ -1,0 +1,98 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoneyManagerPt1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <Window.Resources>
+        <Style x:Key="welcomeTitle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="52"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+    </Window.Resources>
+    <Border CornerRadius="20">
+        <Border.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="#FF8200BF"/>
+                <GradientStop Color="#FF1C7FA4" Offset="1"/>
+            </RadialGradientBrush>
+        </Border.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="1" x:Name="lblTitle" Text="Welcome to SNKR WRLD!" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Center" Margin="0, 20, 0, 0" FontWeight="Bold" Style="{StaticResource welcomeTitle}" FontFamily="Bernard MT Condensed">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF14006E" Offset="0"/>
+                    <GradientStop Color="#FF720193" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock Grid.Row="1" x:Name="lblLogin" Text="Login" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Center" Margin="0, 150, 0, 0" FontSize="32" FontFamily="Bernard MT Condensed" TextDecorations="Underline">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF14006E" Offset="0"/>
+                    <GradientStop Color="#FF720193" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <PasswordBox Grid.Row="1" x:Name="txtPass" PasswordChar="*" Visibility="Hidden"  VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="0, 40, 0, 0" Height="28" VerticalAlignment="Center" Width="234" Background="{x:Null}" Foreground="#FF020000" FontWeight="Bold" BorderBrush="{x:Null}">
+            <PasswordBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"></Setter>
+                </Style>
+            </PasswordBox.Resources>
+        </PasswordBox>
+        <TextBox x:Name="txtPassVisible" Grid.Row="1" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="0, 40, 0, 0" Height="28" VerticalAlignment="Center" Width="234" Background="{x:Null}" Foreground="#FF020000" FontWeight="Bold" BorderBrush="{x:Null}">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"></Setter>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <Image Grid.Row="1" Visibility="Visible" Source="images/passwordLock1.png" Height="20" HorizontalAlignment="Left" Name="ImgShowHide" Stretch="Fill" VerticalAlignment="Top" Width="20" Margin="597,295,0,0" MouseLeave="ImgShowHide_MouseLeave" MouseEnter="ImgShowHide_MouseEnter" MouseUp="ImgShowHide_MouseUp" MouseDown="ImgShowHide_MouseDown" RenderTransformOrigin="2.4,1.725"/>
+
+        <TextBox Grid.Row="2" x:Name="txtUser" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="0, 0, 0, 100" Height="28" TextWrapping="Wrap" VerticalAlignment="Center" Width="234" Background="{x:Null}" Foreground="#FF020000" BorderBrush="{x:Null}">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"></Setter>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+
+        <TextBlock Grid.Row="1" x:Name="lblOr" Text="Or" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Center" Margin="484,361,486,0" FontSize="32" FontFamily="Bernard MT Condensed" TextDecorations="Underline">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF14006E" Offset="0"/>
+                    <GradientStop Color="#FF720193" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <Button Grid.Row="1" x:Name="btnRegister" HorizontalAlignment="Center" Content="Register" VerticalAlignment="Center" Margin="0, 0, 0, -300" Width="100" Background="{x:Null}"  Click="RegisterButton_Click" FontSize="22" FontFamily="Roboto Mono" FontWeight="Bold" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"></Setter>
+                </Style>
+            </Button.Resources>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF14006E" Offset="0"/>
+                    <GradientStop Color="#FF720193" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+
+
+    </Grid>
+    </Border>
+</Window>
