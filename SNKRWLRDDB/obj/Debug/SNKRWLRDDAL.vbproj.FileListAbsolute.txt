@@ -1,0 +1,4 @@
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDDB\obj\Debug\SNKRWLRDDAL.vbprojAssemblyReference.cache
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDDB\obj\Debug\SNKRWLRDDB.Resources.resources
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDDB\obj\Debug\SNKRWLRDDAL.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\MoneyManagerPt1\SNKRWLRDDB\obj\Debug\SNKRWLRDDAL.vbproj.CoreCompileInputs.cache
